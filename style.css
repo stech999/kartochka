@@ -458,9 +458,10 @@ a {
     justify-content: center;
     align-items: center;
     height: 100%;
-    
+
 }
-.education_info_box_sertificat_text{
+
+.education_info_box_sertificat_text {
     font-size: 28px;
     color: #007ACB;
 }
