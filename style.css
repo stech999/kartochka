@@ -32,18 +32,21 @@ a {
     box-shadow: 0px 1px 7px 3px #dedede;
 }
 
+.img_ph {
+    width: auto;
+    height: 250px;
+}
+
 .infocart_left {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
-    border: 2px solid #DEDEDE;
 }
 
 .infocart_right {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .infocart_right_name {
