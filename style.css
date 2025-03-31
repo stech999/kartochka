@@ -32,17 +32,21 @@ a {
     box-shadow: 0px 1px 7px 3px #dedede;
 }
 
+.img_ph {
+    width: auto;
+    height: 250px;
+}
+
 .infocart_left {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 196px;
-    border: 2px solid #DEDEDE;
 }
 
 .infocart_right {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .infocart_right_name {
@@ -53,6 +57,8 @@ a {
 
 .infocart_right_specialisation {
     padding-bottom: 20px;
+    color: gray;
+    font-size: 20px;
 }
 
 .infocart_right_desc {
@@ -89,17 +95,51 @@ a {
     gap: 10px;
 }
 
+.otstup_top {
+    padding-bottom: 30px;
+}
+
+.otstup_bot {
+    padding-top: 30px;
+}
+
 .skills {
-    padding: 30px 0 30px 0;
+    padding: 10px;
     color: #007ACB;
     font-size: 40px;
     font-weight: 600;
+    border: 2px solid #cdcdcd;
+}
+
+.skills_line_box {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 100%;
+    position: relative;
+}
+
+.skills_line_left {
+    width: 361px;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.skills_line_right {
+    width: 362px;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    top: 35px;
+    right: 0;
 }
 
 .skills_info {
     display: flex;
     width: 900px;
     gap: 15px;
+    padding-bottom: 30px;
 }
 
 .skills_info_top {
@@ -406,10 +446,37 @@ a {
 }
 
 .education {
-    padding: 30px 0 30px 0;
+    /* padding: 30px 0 30px 0; */
+    padding: 10px;
     color: #007ACB;
     font-size: 40px;
     font-weight: 600;
+    /* border: 2px solid #007ACB; */
+    border: 2px solid #cdcdcd;
+}
+
+.line_box {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 100%;
+    position: relative;
+}
+
+.line_left {
+    width: 349px;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.line_right {
+    width: 350px;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    top: 35px;
+    right: 0;
 }
 
 .education_info {
@@ -420,6 +487,7 @@ a {
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
+    padding-top: 30px;
 }
 
 .education_info_box {
